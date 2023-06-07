@@ -1,0 +1,187 @@
+* {
+    margin: 1px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+}
+.parent1{
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.child1{
+    width: 350px;
+    height: 126px;
+    position: absolute;
+    left: 380px;
+    right: 350px;
+    line-height: 43px;
+    border: 6px solid rgb(246, 50, 50);
+    box-shadow: 6px 6px 3px rgb(81, 2, 154) ;
+    border-radius:10px ;
+    background-color:white;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 2px 6px black;
+    color: rgb(174, 80, 80);
+}
+hr{
+    color: whitesmoke;
+    margin-top: 8px;
+}
+.parent2{
+    width: 98.5%;
+    height: 600px;
+    margin-top: 6px;
+    border: 6px solid darkgreen;
+
+}
+.box{
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    border: 6px solid rgb(246, 50, 50);
+    border-radius:10px ;
+    box-shadow: 6px 6px 3px rgb(81, 2, 154) ;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 2px 6px black;
+
+
+}
+.box2{
+    position: absolute;
+    top: 178px;
+    right: 80px;
+
+}
+img{
+    padding-top: 18px;
+
+    padding-bottom: 18px;
+}
+.box1{
+line-height: 38px;
+font-weight: bolder;
+color: crimson;
+font-size: large;
+}
+.box3{
+    position: absolute;
+    top: 493px;
+    
+}
+.box4{
+    position: absolute;
+    right: 80px;
+    bottom: -170px;
+    padding-top: 12px;
+}
+label{
+    font-size: smaller;
+}
+input{
+    text-align: center;
+    width: 100px;
+}
+
+button{
+background-color: orangered;
+border-radius: 10px;
+}
+.parent3{
+    position: fixed;
+    top: 430px;
+    right: 473px;
+    width: 424px;
+    height: 70px;
+    background-color: chartreuse;
+    border-radius: 12px;
+    border: 6px solid red;
+    box-shadow: 6px 6px 3px rgb(81, 2, 154) ;
+
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    position: fixed;
+}
+.fix{
+    font-size: x-large;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.fix0{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 50px;
+
+}
+.fix2{
+    font-weight: bolder;
+    font-style: oblique;
+    padding-top: 10px; 
+    font-size: large; 
+}
+.fix3{
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 34px;
+    font-size: large;  
+}
+.parent4{
+    width: 49%;
+    height: 500px;
+    border: 9px solid rgb(81, 2, 154) ;
+    background-color: forestgreen;
+    margin-left: 310px;
+}
+h3{
+    text-align: center;
+    padding-top: 16px;
+}
+.parent5{
+    display: flex;
+    justify-content:space-between;
+}
+.fruits{
+    width: 309px;
+    height: 200px;
+    background-color: khaki;
+    text-align: center;
+    margin-top: 23px;
+    font-weight: bolder; 
+    font-style: italic;
+}
+.vegetable{
+    width: 307px;
+    height: 200px;
+    background-color: khaki;
+    text-align: center;
+    margin-top: 23px;
+    font-weight: bolder; 
+    font-style: italic;
+ 
+}
+.he{
+    margin-top: 13px;
+}
+.heading{
+    padding-top: 12px;
+}
+.FOOD{
+    font-size: smaller;
+    line-height: 25px;
+}
+.last{
+    width: 629px;
+    height: 200px;
+    background-color: khaki;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
